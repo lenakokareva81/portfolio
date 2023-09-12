@@ -1,0 +1,119 @@
+.container {
+   height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto ;
+ 
+
+
+
+
+align-items: flex-start;
+}
+  
+
+.border{
+     height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+ 
+
+.border:hover{
+    border: 1px solid white;
+
+  }
+    
+.card{
+    height: 379px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+  
+
+.card0{
+    background: url('https://downloader.disk.yandex.ru/preview/a83b7d4b6d19abb9febacf7d4070b86a88028431c8aeb00b014f1fefd4a94457/64ff5757/ibPIxnVJ3cRy7t3SI7dbTGxdaOZ5cX4zd71ZDvzvown0ZSkqJdcr-dr09QqwR95Go5KrquWD01mIzv6TincCgA%3D%3D?uid=0&filename=20yar.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=3744x1755') center center no-repeat;
+  background-size: 350px;
+
+}
+  
+.card0:hover{
+    background: url('https://downloader.disk.yandex.ru/preview/a83b7d4b6d19abb9febacf7d4070b86a88028431c8aeb00b014f1fefd4a94457/64ff5757/ibPIxnVJ3cRy7t3SI7dbTGxdaOZ5cX4zd71ZDvzvown0ZSkqJdcr-dr09QqwR95Go5KrquWD01mIzv6TincCgA%3D%3D?uid=0&filename=20yar.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=3744x1755') center center no-repeat;
+    background-size: 700px;
+  }
+    
+
+    
+      
+
+.card1{
+    background: url('https://sun9-48.userapi.com/impf/c301703/v301703872/39a0/wtdRB0fsNb0.jpg?size=462x549&quality=96&sign=cc3a9580183f5928209df063d67b4c5e&type=album') center center no-repeat;
+  background-size: 350px;
+}
+  
+
+.card1:hover{
+    background: url('https://sun9-48.userapi.com/impf/c301703/v301703872/39a0/wtdRB0fsNb0.jpg?size=462x549&quality=96&sign=cc3a9580183f5928209df063d67b4c5e&type=album') right center no-repeat;
+    background-size: 600px;
+  }
+    
+
+  
+     
+
+.card2{
+    background: url('https://downloader.disk.yandex.ru/preview/7d61e2271a824d2516692f45ff8fb8370bfd11a838484c5188aab0f982e5b74b/64ff2ace/LEmPM2-s2ePWMw3F_tbr2CnR7W6ozpX3Tjmx8P0i5O_iuyuZy53GP77eTLW5IA_96--m4FA6_9ixyiXEpKGjBg%3D%3D?uid=0&filename=626A4568-1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=3744x1755') center center no-repeat;
+  background-size: 350px;
+}
+  
+
+.card2:hover{
+     background: url('https://downloader.disk.yandex.ru/preview/7d61e2271a824d2516692f45ff8fb8370bfd11a838484c5188aab0f982e5b74b/64ff2ace/LEmPM2-s2ePWMw3F_tbr2CnR7W6ozpX3Tjmx8P0i5O_iuyuZy53GP77eTLW5IA_96--m4FA6_9ixyiXEpKGjBg%3D%3D?uid=0&filename=626A4568-1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=3744x1755') left center no-repeat;
+    background-size: 600px;
+
+  }
+   
+   
+    
+
+.h2{
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin-top: 300px;
+  margin-left: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+
+}
+.card2:hover .h2{
+    opacity: 1;
+
+}
+.card1:hover .h2{
+    opacity: 1;
+
+}
+.card0:hover .h2{
+    opacity: 1;
+
+}
+ 
+ 

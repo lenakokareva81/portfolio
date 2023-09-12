@@ -1,0 +1,28 @@
+.paragraph {
+    justify-self: center;
+    width: 100vw;
+    background: url(../../components/img/Frame\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center top 0em;
+    background-size: 90% 100%;
+    grid-area: block-6__paragraph;
+}
+.input {
+    justify-self: center;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 1.3em;
+    padding: 10pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+.bud:hover circle{
+    stroke:#137790;
+
+}

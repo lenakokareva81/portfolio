@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,600&family=Yeseva+One&display=swap');
+
+.header{
+max-width: 1200px;
+display: flex;
+margin: auto;
+  
+/* position: fixed; */
+  top: 0;
+  left: 0;
+ height:150px;
+
+}
+.header__menu{
+  width: 100%;
+  display: grid;
+  margin-right: 20px;
+  padding-top: 30px;
+  grid-template-columns:1fr repeat(4,auto);
+  /* position:absolute; */
+ 
+}
+.header__logo{
+  left: 0%;
+}
+.header__menu li{
+  width: auto;
+  padding: 10px;
+  list-style-type:  none;
+  display: grid;
+  grid-template-rows:repeat(2,auto);
+justify-items: center
+}
+ .logo{
+  padding: 10px;
+  margin-left: 0 ;
+  display: grid;
+  grid-template-rows:repeat(2,auto);
+  justify-items: center;
+  width: min-content;
+ 
+}
+.gif{
+  height: 50px;
+  
+}
+
+.link{
+  font-family: 'Montserrat',Arial,sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 700;
+  color: rgb(184, 184, 184);
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+  display: grid;
+  grid-template-rows:repeat(2,auto);
+  align-content: space-evenly;
+  justify-items: center
+}
+.link:hover::after{
+  width: 100%;
+  
+}
+.link:hover{ color: #508c78; }
+
+.link::after {content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #508c78;
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s  all;
+}
+.active {
+  color:#508c78;
+  cursor: default;
+  text-decoration:solid;
+}
+.photo, 
+.text,
+.learn {
+width: 50px;
+transition: 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+.learn path{
+  transition: transform 0.3s ease;
+}
+.photo,
+.text,
+.learn  {
+  transition: transform 0.5s ease;
+}
+.photo:hover polygon{
+  fill:#508c78;}
+  
+.photo:hover, 
+.learn:hover,
+.text:hover {
+  transform:scale(1.2) ;
+}
+
+.photo:hover circle{
+  fill:#ffb404;
+  
+}
+.active .photo polygon{
+  fill:#508c78
+}
+.active .photo circle{
+  fill:#ffb404
+}
+.active .learn polygon{
+  fill:#508c78
+}
+.learn:hover polygon{
+  fill:#508c78
+}
+.active .learn path{
+  fill:#ffb404;
+  
+}
+.learn:hover path{
+  fill:#ffb404;
+  
+}
+.active .learn rect{
+  fill:#508c78
+}
+.learn:hover rect{
+  fill:#508c78
+}
+.text:hover polygon{
+  fill:#ffb404
+}
+.active .text
+polygon{
+  fill:#ffb404
+}
+/* цвет иконок #758F7EF5  и */
