@@ -50,13 +50,13 @@ align-items: flex-start;
   
 
 .card0{
-    background: url('https://downloader.disk.yandex.ru/preview/a83b7d4b6d19abb9febacf7d4070b86a88028431c8aeb00b014f1fefd4a94457/64ff5757/ibPIxnVJ3cRy7t3SI7dbTGxdaOZ5cX4zd71ZDvzvown0ZSkqJdcr-dr09QqwR95Go5KrquWD01mIzv6TincCgA%3D%3D?uid=0&filename=20yar.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=3744x1755') center center no-repeat;
+    background: url('../../components/img/20yar.jpg') center center no-repeat;
   background-size: 350px;
 
 }
   
 .card0:hover{
-    background: url('https://downloader.disk.yandex.ru/preview/a83b7d4b6d19abb9febacf7d4070b86a88028431c8aeb00b014f1fefd4a94457/64ff5757/ibPIxnVJ3cRy7t3SI7dbTGxdaOZ5cX4zd71ZDvzvown0ZSkqJdcr-dr09QqwR95Go5KrquWD01mIzv6TincCgA%3D%3D?uid=0&filename=20yar.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=3744x1755') center center no-repeat;
+    background: url('../../components/img/20yar.jpg') center center no-repeat;
     background-size: 700px;
   }
     
@@ -71,7 +71,7 @@ align-items: flex-start;
   
 
 .card1:hover{
-    background: url('https://sun9-48.userapi.com/impf/c301703/v301703872/39a0/wtdRB0fsNb0.jpg?size=462x549&quality=96&sign=cc3a9580183f5928209df063d67b4c5e&type=album') right center no-repeat;
+    background: url('../../components/img/626A4568.jpg') right center no-repeat;
     background-size: 600px;
   }
     
@@ -80,13 +80,13 @@ align-items: flex-start;
      
 
 .card2{
-    background: url('https://downloader.disk.yandex.ru/preview/7d61e2271a824d2516692f45ff8fb8370bfd11a838484c5188aab0f982e5b74b/64ff2ace/LEmPM2-s2ePWMw3F_tbr2CnR7W6ozpX3Tjmx8P0i5O_iuyuZy53GP77eTLW5IA_96--m4FA6_9ixyiXEpKGjBg%3D%3D?uid=0&filename=626A4568-1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=3744x1755') center center no-repeat;
-  background-size: 350px;
+    background: url('../../components/img/626A4568.jpg') center center no-repeat;
+  background-size: 370px;
 }
   
 
 .card2:hover{
-     background: url('https://downloader.disk.yandex.ru/preview/7d61e2271a824d2516692f45ff8fb8370bfd11a838484c5188aab0f982e5b74b/64ff2ace/LEmPM2-s2ePWMw3F_tbr2CnR7W6ozpX3Tjmx8P0i5O_iuyuZy53GP77eTLW5IA_96--m4FA6_9ixyiXEpKGjBg%3D%3D?uid=0&filename=626A4568-1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=3744x1755') left center no-repeat;
+     background: url('../../components/img/626A4568.jpg') left center no-repeat;
     background-size: 600px;
 
   }

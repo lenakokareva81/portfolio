@@ -11,7 +11,7 @@ import cn from 'classnames';
 import Learn from './pages/Learn/Learn'
 import AboutMe from './pages/AboutMe/AboutMe'
 import Photo from './pages/Photo/Photo'
-// import Project from './pages/Project/Project'
+import Video from './pages/Video/Video'
 import styles from './App.module.css';
 
 
@@ -22,19 +22,15 @@ function App() {
         <ul className={styles.header__menu}>
           <div className={styles.logo}>
             <li>
-
-              <NavLink className={({ isActive }) => isActive ? cn([styles.link, styles.active]) : styles.link} to="/">
-
-
-
-
-                Главная</NavLink>
+              <a href="https://github.com/lenakokareva81/portfolio" className={styles.link} title="репозиторий github этого приложения">
+                <svg className={styles.git} xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  >
+                  <path fill="#fff" d="M41,24c0,9.4-7.6,17-17,17S7,33.4,7,24S14.6,7,24,7S41,14.6,41,24z"></path><path fill="#455a64" d="M21 41v-5.5c0-.3.2-.5.5-.5s.5.2.5.5V41h2v-6.5c0-.3.2-.5.5-.5s.5.2.5.5V41h2v-5.5c0-.3.2-.5.5-.5s.5.2.5.5V41h1.8c.2-.3.2-.6.2-1.1V36c0-2.2-1.9-5.2-4.3-5.2h-2.5c-2.3 0-4.3 3.1-4.3 5.2v3.9c0 .4.1.8.2 1.1L21 41 21 41zM40.1 26.4C40.1 26.4 40.1 26.4 40.1 26.4c0 0-1.3-.4-2.4-.4 0 0-.1 0-.1 0-1.1 0-2.9.3-2.9.3-.1 0-.1 0-.1-.1 0-.1 0-.1.1-.1.1 0 2-.3 3.1-.3 1.1 0 2.4.4 2.5.4.1 0 .1.1.1.2C40.2 26.3 40.2 26.4 40.1 26.4zM39.8 27.2C39.8 27.2 39.8 27.2 39.8 27.2c0 0-1.4-.4-2.6-.4-.9 0-3 .2-3.1.2-.1 0-.1 0-.1-.1 0-.1 0-.1.1-.1.1 0 2.2-.2 3.1-.2 1.3 0 2.6.4 2.6.4.1 0 .1.1.1.2C39.9 27.1 39.9 27.2 39.8 27.2zM7.8 26.4c-.1 0-.1 0-.1-.1 0-.1 0-.1.1-.2.8-.2 2.4-.5 3.3-.5.8 0 3.5.2 3.6.2.1 0 .1.1.1.1 0 .1-.1.1-.1.1 0 0-2.7-.2-3.5-.2C10.1 26 8.6 26.2 7.8 26.4 7.8 26.4 7.8 26.4 7.8 26.4zM8.2 27.9c0 0-.1 0-.1-.1 0-.1 0-.1 0-.2.1 0 1.4-.8 2.9-1 1.3-.2 4 .1 4.2.1.1 0 .1.1.1.1 0 .1-.1.1-.1.1 0 0 0 0 0 0 0 0-2.8-.3-4.1-.1C9.6 27.1 8.2 27.9 8.2 27.9 8.2 27.9 8.2 27.9 8.2 27.9z"></path><path fill="#455a64" d="M14.2,23.5c0-4.4,4.6-8.5,10.3-8.5c5.7,0,10.3,4,10.3,8.5S31.5,31,24.5,31S14.2,27.9,14.2,23.5z"></path><path fill="#455a64" d="M28.6 16.3c0 0 1.7-2.3 4.8-2.3 1.2 1.2.4 4.8 0 5.8L28.6 16.3zM20.4 16.3c0 0-1.7-2.3-4.8-2.3-1.2 1.2-.4 4.8 0 5.8L20.4 16.3zM20.1 35.9c0 0-2.3 0-2.8 0-1.2 0-2.3-.5-2.8-1.5-.6-1.1-1.1-2.3-2.6-3.3-.3-.2-.1-.4.4-.4.5.1 1.4.2 2.1 1.1.7.9 1.5 2 2.8 2 1.3 0 2.7 0 3.5-.9L20.1 35.9z"></path><path fill="#508c78" d="M24,4C13,4,4,13,4,24s9,20,20,20s20-9,20-20S35,4,24,4z M24,40c-8.8,0-16-7.2-16-16S15.2,8,24,8 s16,7.2,16,16S32.8,40,24,40z"></path>
+                </svg>
+                github </a>
 
             </li>
           </div>
           <li>
-
-            {/* <img src={cardspng} className={styles.gif} /> */}
             <NavLink className={({ isActive }) => isActive ? cn([styles.link, styles.active]) : styles.link} to="/photo">
               <svg version="1.1" className={styles.photo} xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" >
@@ -49,7 +45,6 @@ function App() {
               фото</NavLink>
           </li>
           <li>
-            {/* <img src={deckpng} className={styles.gif} /> */}
             <NavLink className={({ isActive }) => isActive ? cn([styles.link, styles.active]) : styles.link} to="/aboutMe">
               <svg version="1.1" className={styles.text} xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" >
@@ -71,7 +66,6 @@ function App() {
               обо мне </NavLink>
           </li>
           <li>
-            {/* <img src={deckpng} className={styles.gif} /> */}
             <NavLink className={({ isActive }) => isActive ? cn([styles.link, styles.active]) : styles.link} to="/learn">
 
               <svg version="1.1" className={styles.learn} xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -85,8 +79,20 @@ function App() {
               </svg>
               js задания</NavLink>
           </li>
-
-
+          <li>
+            <NavLink className={({ isActive }) => isActive ? cn([styles.link, styles.active]) : styles.link} to="/video">
+              <svg version="1.1" className={styles.video} id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+                <g >
+                  <path d="M47,19h-6.586l-8-8H6v2h25.586l6,6H0v34h47v-9.252l17,10V18.252l-17,10V19z M62,21.748v28.504l-17-10V51H2V21h43v10.748
+		L62,21.748z"/>
+                  <rect x="6" y="27" width="4" height="2" />
+                  <rect x="14" y="27" width="4" height="2" />
+                  <path className={styles.video__camera} d="M6,47h20V35H6V47z M8,37h16v8H8V37z" />
+                </g>
+              </svg>
+              видео </NavLink>
+          </li>
         </ul>
       </nav>
 
@@ -94,23 +100,16 @@ function App() {
 
       <div>
         <Routes>
-
           <Route path="/aboutMe" element={<AboutMe />} />
           <Route path="/photo" element={<Photo />} />
           <Route path="/learn" element={<Learn />} />
+          <Route path="/video" element={<Video />} />
         </Routes>
-
       </div>
-
-
 
     </Router >
 
-
   );
-
-
-
 }
 export default App;
 

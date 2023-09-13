@@ -1,0 +1,10 @@
+.video{
+    display: flex;
+    flex-direction: column;
+    
+align-content: stretch;
+align-items: center;
+}
+h1{
+    color: #508c78;
+}

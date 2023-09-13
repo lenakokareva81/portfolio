@@ -82,24 +82,26 @@ justify-items: center
 }
 .photo, 
 .text,
-.learn {
+.learn,
+.git,
+.video {
+  height: 50px;
 width: 50px;
-transition: 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+cursor: pointer;
+transition: transform 0.5s ease;
 }
 .learn path{
   transition: transform 0.3s ease;
 }
-.photo,
-.text,
-.learn  {
-  transition: transform 0.5s ease;
-}
+
 .photo:hover polygon{
   fill:#508c78;}
   
 .photo:hover, 
 .learn:hover,
-.text:hover {
+.text:hover,
+.git:hover,
+.video:hover {
   transform:scale(1.2) ;
 }
 
@@ -138,6 +140,18 @@ transition: 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
 }
 .active .text
 polygon{
+  fill:#ffb404
+}
+.active .video  {
+  fill:#508c78
+}
+.video:hover  {
+  fill:#508c78
+}
+.active  .video__camera{
+  fill:#ffb404
+}
+.video:hover .video__camera{
   fill:#ffb404
 }
 /* цвет иконок #758F7EF5  и */
