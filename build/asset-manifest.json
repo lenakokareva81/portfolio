@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7748939e.css",
-    "main.js": "/static/js/main.f3b083aa.js",
+    "main.css": "/static/css/main.124495f2.css",
+    "main.js": "/static/js/main.726d3ef4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/karta3.png": "/static/media/karta3.8f6c922922971ac3d894.png",
     "static/media/karta1.png": "/static/media/karta1.f1dadd6097eb109506e7.png",
@@ -11,12 +11,12 @@
     "static/media/20yar.jpg": "/static/media/20yar.915e5ae3bd3ce65496c2.jpg",
     "static/media/Frame (1).png": "/static/media/Frame (1).fe8c52a5bd94b060c5bf.png",
     "index.html": "/index.html",
-    "main.7748939e.css.map": "/static/css/main.7748939e.css.map",
-    "main.f3b083aa.js.map": "/static/js/main.f3b083aa.js.map",
+    "main.124495f2.css.map": "/static/css/main.124495f2.css.map",
+    "main.726d3ef4.js.map": "/static/js/main.726d3ef4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7748939e.css",
-    "static/js/main.f3b083aa.js"
+    "static/css/main.124495f2.css",
+    "static/js/main.726d3ef4.js"
   ]
 }
